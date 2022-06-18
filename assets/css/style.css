@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'nib';
+  src: url("../fonts/nib-regular.eot");
+  src: url("../fonts/nib-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/nib-regular.woff2") format("woff2"), url("../fonts/nib-regular.woff") format("woff"), url("../fonts/nib-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Stripes Sans;
+  src: url(../fonts/stripes-sans.woff) format("woff");
+  font-display: fallback;
+  font-style: normal; }
+@font-face {
+  font-family: 'NoWomanNoCry';
+  src: url("../fonts/NoWomanNoCry-Regular/NoWomanNoCry-Regular.eot");
+  src: url("../fonts/NoWomanNoCry-Regular/NoWomanNoCry-Regular.eot?#iefix") format("embedded-opentype"), url("../font/NoWomanNoCry-Regular/NoWomanNoCry-Regular.woff") format("woff"), url("../font/NoWomanNoCry-Regular/NoWomanNoCry-Regular.ttf") format("truetype"), url("../font/NoWomanNoCry-Regular/NoWomanNoCry-Regular.svg#4a3300ff35abd4b5f96c2dcc38e7efb7") format("svg");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: 'lafabrique regular';
+  src: url("../fonts/lafabrique-regular.eot");
+  src: url("../fonts/lafabrique-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lafabrique-regular.woff2") format("woff2"), url("../fonts/lafabrique-regular.woff") format("woff"), url("../fonts/lafabrique-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+html, body, main {
+  height: 100%; }
+
+body {
+  font-family: "nib";
+  letter-spacing: -.02em;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  position: relative; }
+  body a {
+    text-decoration: none;
+    color: black; }
+    body a:hover {
+      color: black;
+      text-decoration: underline;
+      font-style: italic; }
+  body #circle {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.7; }
+  body main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5em 6em 5em 6em; }
+    @media screen and (max-width: 576px) {
+      body main {
+        padding: 2.5em; } }
+    body main .content {
+      z-index: 9; }
+    body main h1 {
+      font-size: 2em;
+      font-weight: bold; }
+      @media screen and (max-width: 576px) {
+        body main h1 {
+          font-size: 1.5em; } }
+    body main ul {
+      list-style: none;
+      padding: 0; }
+    body main footer {
+      font-size: 1.2em; }
+
+/*# sourceMappingURL=style.css.map */
