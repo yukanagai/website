@@ -61,7 +61,7 @@ body {
     body main .content {
       z-index: 9; }
     body main h1 {
-      font-size: 4vw;
+      font-size: 3vw;
       font-weight: bold;
       margin-bottom: 20px; }
       @media screen and (max-width: 576px) {
