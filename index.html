@@ -1,24 +1,97 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Yuka Koko</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
-    	<link rel="icon" type="image/png" href="./assets/favicon.png" />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body class="container bg">
-  	<main class="row">
-  		<div id="circle"></div>
-  		<div class="content col-12 col-lg-7">
-  			<h1>Hello! I'm Yuka Koko, an experienced front-end web 🕸️ developer.</h1>
-  			<h1>Currently making things at Jane Street out of  New York, NY 🗽.</h1>
-  		</div>
-  		<footer class="col-12 col-lg-7">
-  			<ul>
-  				<li>💼 <a href="https://www.linkedin.com/in/yukakoko/"> LinkedIn</a></li>
-  				<li>📧 <a href="mailto:yukanagai@gmail.com">Email</a></li>
-  			</ul>
-  		</footer>
-  	</main>
-  </body>
+<head>
+	<title>Yuka Koko</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="body">
+	<div data-scroll-container>
+		<section data-scroll-section id="nav">
+			<div class="nav-container">
+					<h3 class="right-h3" data-scroll data-scroll-speed="-1" data-scroll-repeat="true">
+						Creative Front-end Developer
+					</h3>
+				<div class="bottom">
+					<h1 data-scroll-class="appear" data-scroll-repeat="true" data-scroll
+						class="header-title">
+						<span class="header-line">
+							<span data-scroll data-scroll-speed="-3" data-scroll-position="top">Yuka</span>
+						</span>
+						<br/>
+						<span class="header-line">
+						<span data-scroll data-scroll-speed="10" data-scroll-position="top">Koko</span>
+						</span>
+					</h1>
+				</div>
+			</div>
+		</section>
+		<section data-scroll-section id="bio">
+			<div class="section-title"><h3>Bio</h3></div>
+			<div class="bio-container color-change" data-scroll data-scroll-speed="-1" data-background-color="#fff"
+				data-scroll-call="pageColor">
+				<p>Hi I'm Yuka, a creative front-end developer based in New York City. I has over 5 years of experience
+					in web development. I always strive to create experiences that are simple and honest.</p>
+			</div>
+		</section>
+		<section data-scroll-section class="project" id="figgie">
+			<div class="section-title"><h3>Projects</h3></div>
+			<div data-scroll>
+				<h2 class="animated-title">Figgie</h2>
+				<div class="content color-change" data-background-color="#f2f2f2" data-scroll-call="pageColor">
+					<p>In March 2021 when COVID forced our offices to shut down and go fully remote, we turned an in-person card game into a virtual experience. Figgie is a card-game created by Jane Street to teach new and prospective hires trading concepts and terms.</p> 
+					<p>I was the main front-end lead for this project. The UI is built using React with an OCaml server, and uses websockets for real-time communication.</p>
+				</div>
+				<img src="./assets/images/figgie.png">
+			</div>
+		</section>
+		<section data-scroll-section class="project" id="moxxie">
+			<div data-scroll>
+				<h2 class="animated-title">Moxxie</h2>
+				<img src="./assets/images/moxxie-landing.jpeg">
+				<div class="content color-change" data-background-color="#f2f2f2" data-scroll-call="pageColor">
+					I was the main front-end lead for this React based web game.
+				</div>
+			</div>
+		</section>
+		<section data-scroll-section class="project" id="js-com">
+			<div data-scroll>
+				<h2 class="animated-title">Janestreet.com</h2>
+				<img src="./assets/images/janestreet.png">
+				<div class="content color-change" data-background-color="#f2f2f2" data-scroll-call="pageColor">
+					I was the main front-end lead for this React based web game.
+				</div>
+			</div>
+		</section>
+		<section data-scroll-section class="project" id="jsql">
+			<div data-scroll>
+				<h2 class="animated-title">JSQL</h2>
+				<div class="content color-change" data-background-color="#f2f2f2" data-scroll-call="pageColor">
+					I was the main front-end lead for this React based web game.
+				</div>
+			</div>
+		</section>
+		<section data-scroll-section class="project" id="contact">
+			<div class="section-title"><h3>Contact</h3></div>
+			<div data-scroll>
+				<div class="content color-change" data-background-color="#f2f2f2" data-scroll-call="pageColor">
+					<a href="mailto:yukanagai@gmail.com">yukanagai@gmail.com</a>
+				</div>
+			</div>
+		</section>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="./assets/js/inview.min.js"></script>
+		<script src="./assets/js/lettering.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+		<script async src="./assets/js/main.js" type="text/javascript"></script>
+</body>
+
 </html>

@@ -1,2 +1,0 @@
-# yuka.koko
-personal portfolio
